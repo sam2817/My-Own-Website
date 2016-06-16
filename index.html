@@ -1,0 +1,38 @@
+﻿<!doctype html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sam's Website</title>
+	<!--external is preferrable, linking the style of your css file to this html file-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--external stylesheet which is linked to a font stylesheet-->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">		
+</head>
+
+<body>
+	<!--the header holds the home button, when pressed it will place the webpage on it's default state-->
+	<header id="container">
+		<!--linked to a home font to serve as the home button-->
+		<a href="#"><i id="homeButton" class="fa fa-home fa-3x"></i></a>
+		<!--these svg's serves as surfaces for the home button and the navigation icons-->
+		<svg width="200" height="200">
+			<circle cx="0" cy="0" r="125" style="fill:orange; stroke-width:2; stroke:black" />
+			<circle cx="0" cy="0" r="75" fill="blue" />
+		</svg>
+	</header>
+	
+	<!--this serves as the parent for the navigation icons-->
+	<nav class="navSurface">
+		<a id="degZero" href="#"><i class="fa fa-file-image-o"></i></a>
+		<a id="degThirty" href="#"><i class="fa fa-bar-chart"></i></a>
+		<a id="degSixty" href="#"><i class="fa fa-link"></i></a>
+		<a id="degNinty" href="#"><i class="fa fa-comments"></i></a>
+	</nav>
+		
+	<footer>
+	</footer>
+</body>
+
+</html>

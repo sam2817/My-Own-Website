@@ -1,0 +1,53 @@
+* {
+	margin:0;
+}
+
+/*styles and positions the home button*/
+#homeButton {
+	position:absolute;
+	top:8px;
+	left:10px;
+	z-index:2;
+	cursor:pointer;
+}
+#homeButton:hover {color:grey;}
+
+/*styles the svg's in the header*/
+#container svg{
+	opacity:.5;
+}
+
+/*styles and positions the navigation icons*/
+a {
+	text-decoration:none;
+	color:black;
+}
+.navSurface a {
+    display:block;
+    position:absolute;
+    width:32px; height:32px; 
+    margin:50px;
+}
+.navSurface {
+	position:absolute;
+	top:-44px;
+	left:-45px;
+	width:100px;
+	height:100px;
+	z-index:0;
+}
+.navSurface i {
+	display:block;
+	width:100px;
+}
+
+#degZero { transform:rotate(0deg) translate(5.75em) rotate(-0deg); }
+#degThirty { transform:rotate(30deg) translate(5.75em) rotate(-30deg); }
+#degSixty { transform:rotate(60deg) translate(5.75em) rotate(-60deg); }
+#degNinty { transform:rotate(90deg) translate(6em) rotate(-90deg); }
+
+/*gives effects on the hover state of the navigation icons*/
+.fa-file-image-o:hover {color:tan;}
+.fa-bar-chart:hover {color:gray;}
+.fa-link:hover {color:teal;}
+.fa-comments:hover {color:red;}
