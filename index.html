@@ -12,27 +12,76 @@
 </head>
 
 <body>
-	<!--the header holds the home button, when pressed it will place the webpage on it's default state-->
-	<header id="container">
-		<!--linked to a home font to serve as the home button-->
-		<a href="#"><i id="homeButton" class="fa fa-home fa-3x"></i></a>
-		<!--these svg's serves as surfaces for the home button and the navigation icons-->
-		<svg width="200" height="200">
-			<circle cx="0" cy="0" r="125" style="fill:orange; stroke-width:2; stroke:black" />
-			<circle cx="0" cy="0" r="75" fill="blue" />
-		</svg>
-	</header>
-	
-	<!--this serves as the parent for the navigation icons-->
-	<nav class="navSurface">
-		<a id="degZero" href="#"><i class="fa fa-file-image-o"></i></a>
-		<a id="degThirty" href="#"><i class="fa fa-bar-chart"></i></a>
-		<a id="degSixty" href="#"><i class="fa fa-link"></i></a>
-		<a id="degNinty" href="#"><i class="fa fa-comments"></i></a>
-	</nav>
-		
-	<footer>
-	</footer>
+	<section id="wrapper">
+		<section id="mask">
+			<section id="homePage">
+				<!--the header holds the home button, when pressed it will place the webpage on it's default state-->
+				<header id="headContainer">
+					<!--linked to a home font to serve as the home button-->
+					<a id="zero" href="#homePage"><i id="homeButton" class="fa fa-home fa-3x"></i></a>
+					<!--these svg's serves as surfaces for the home button and the navigation icons-->
+					<svg width="125" height="125">
+						<circle cx="0" cy="0" r="125" style="fill:orange; stroke-width:2; stroke:black" />
+						<circle cx="0" cy="0" r="75" fill="blue" />
+					</svg>
+				</header>
+				
+				<!--this serves as the parent for the navigation icons-->
+				<nav class="navSurface">
+					<a id="degZero" href="#aboutMePage"><i class="fa fa-file-image-o"></i></a>
+					<a id="degThirty" href="#interestsPage"><i class="fa fa-bar-chart"></i></a>
+					<a id="degSixty" href="#linksPage"><i class="fa fa-link"></i></a>
+					<a id="degNinty" href="#commentsPage"><i class="fa fa-comments"></i></a>
+				</nav>
+				<footer>
+				
+				</footer>
+			</section>
+			<section id="aboutMePage">
+				Something about
+			</section>
+			<section id="interestsPage">
+				Something interesting
+			</section>
+			<section id="linksPage">
+				<ul>
+					<li><a href="#"></a></li>
+					
+					
+				</ul>			
+			</section>
+			<section id="commentsPage">
+				<div id="form">
+					<form class="commentForm" method="post">
+						<table class="commentTable">
+							<tr>
+								<th colspan="2">
+									Comments and suggestions:
+								</th>
+							</tr>
+							<tr>
+								<td>Full name:</td>
+								<td><input type="text" name="fullName" /></td>
+							</tr>
+							<tr>	
+								<td>Email Address:</td>
+								<td><input type="email" name="email" /></td>
+							</tr>
+							<tr>
+								<td>Comments:</td>	
+								<td><textarea rows="4" cols="30"></textarea></td>
+							</tr>
+							<tr>
+								<td>
+									<input type="submit" value="Send" />
+								</td>
+							</tr>
+						</table>
+					</form>
+				</div>
+			</section>
+		</section>
+	</section>
 </body>
 
 </html>
