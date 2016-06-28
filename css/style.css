@@ -126,7 +126,7 @@ a {
 }
 
 figure {
-	margin-top:25%;
+	margin-top:10vh;
 	margin-bottom:auto;
 }
 
@@ -163,8 +163,10 @@ figcaption {
 }
 
 #links {
-	display:block;
-	padding:7em 3em 3em 3em;
+	margin-top:25vh;
+	margin-bottom:auto;
+	text-align:center;
+	font-size:50px;
 }
 
 #commentsPage {
@@ -174,6 +176,9 @@ figcaption {
 	background-color:#4d94ff;
 }
 
-#form {
-	padding:7em 3em 3em 3em;
+.commentTable {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:25vh;
+	margin-bottom:auto;
 }
