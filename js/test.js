@@ -1,10 +1,18 @@
-alert ("hello!");
+/*if (typeof jQuery != 'undefined') {
+
+   alert("jQuery library is loaded!");
+
+}else{
+
+   alert("jQuery library is not found!");
+
+}*/
 
 $(document).ready(function() {
 
- $('#homePage a').click(function() {
+ $('#homePage i').click(function() {
 
-   $('#Page').removeClass('selected');
+   $('#homePage i').removeClass('selected');
    $(this).addClass('selected');
 
    current = $(this);
@@ -13,9 +21,10 @@ $(document).ready(function() {
 
    return false;
  });
- 
+});
+
 /*$(function(){
-  $(".navSurface a").click(function(e){
+  $("#homePage i").click(function(e){
     e.preventDefault();
     $('html,body').scrollTo(this.hash,this.hash); 
   });

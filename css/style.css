@@ -27,14 +27,14 @@ a {
 	color:black;
 }
 
-.navSurface a {
+#navSurface a {
     display:block;
     position:;
     width:32px; height:32px; 
     margin:50px;
 }
 
-.navSurface {
+#navSurface {
 	position:fixed;
 	top:-44px;
 	left:-45px;
@@ -43,7 +43,7 @@ a {
 	z-index:0;
 }
 
-.navSurface i {
+#navSurface i {
 	display:block;
 	width:100px;
 }
@@ -126,13 +126,13 @@ a {
 }
 
 figure {
-	margin-top:10vh;
+	margin-top:15vh;
 	margin-bottom:auto;
 }
 
 img {
 	display:block;
-	border-radius:125px;
+	border-radius:100px;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -163,10 +163,10 @@ figcaption {
 }
 
 #links {
-	margin-top:25vh;
+	margin-top:30vh;
 	margin-bottom:auto;
 	text-align:center;
-	font-size:50px;
+	font-size:40px;
 }
 
 #commentsPage {
