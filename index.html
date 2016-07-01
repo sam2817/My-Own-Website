@@ -11,13 +11,21 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	
 	
+	<!--These links are for troubleshooting-->
 	<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>-->
 	<!--<script type="text/javascript" src="js/jQuery/v1.12.4/jquery-1.12.4.min.js"></script>-->
+
+
+
+	
 </head>
 
 <body>
+	<!--This serves as the browser screen-->
 	<section id="wrapper">
+		<!-- This serves as the single page slate -->
 		<section id="mask">
+			<!--the header holds the home button, when pressed it will place the webpage on it's default state-->
 			<header id="headContainer">
 				<!--linked to a home font to serve as the home button-->
 				<a id="zero" href="#homePage"><i id="homeButton" class="fa fa-home fa-3x"></i></a>
@@ -35,11 +43,10 @@
 				<a id="degSixty" href="#linksPage"><i class="fa fa-link"></i></a>
 				<a id="degNinty" href="#commentsPage"><i class="fa fa-comments"></i></a>
 			</nav>
-			<section id="homePage">
-				<!--the header holds the home button, when pressed it will place the webpage on it's default state-->
-				
-				
+			<!-- This is the default page of the website -->
+			<section id="homePage">	
 				<section id="homeContent">
+					<!-- This is the content of my home page at the moment -->
 					<figure>
 						<img src="images/Samuel F.JPG" alt="Samuel Aaron Felipe" width="200" height="200">
 						<figcaption>Samuel Aaron Felipe</figcaption>
@@ -50,34 +57,52 @@
 				
 				</footer>
 			</section>
+			<!-- In progress -->
 			<section id="aboutMePage">
-				Something about
+				<div id="aboutMe">
+					Something aboutMe Lorem ipsum dolor sit amet, in cum patrioque constituto, ad nam mucius pertinax. Nec et liber debet suscipiantur, et vel ludus libris facete. Ea iisque abhorreant consetetur quo, ad voluptua scribentur duo, vix ea modus fierent percipit. Vim modus saepe fabellas in. At sed nobis veritus.
+
+					Ei vim altera oblique menandri. Mei amet movet splendide ad. Cum feugiat iudicabit expetendis et, no ius rebum mediocrem. Epicurei eleifend sadipscing sit cu, eu duo similique definitionem, ex tantas pertinacia duo. At assum nostrum mel, ad purto augue persequeris vim. Habemus erroribus no eam, et audiam saperet est. In eam virtute utroque.
+
+					In eam aeque labitur, sed timeam urbanitas ut. Eum cu animal virtute electram. Et mei alia summo, quot viderer officiis ne qui, ius cu natum simul. Ad tollit option quo, quot vide saperet pri no, in constituam adversarium vel. Saepe nemore sadipscing eos ut, melius aeterno deserunt eu sed.
+
+					At esse wisi laudem sit. Te fabellas atomorum gloriatur mei, vis cu malis diceret abhorreant, exerci omnesque intellegam nec cu. Quas partiendo consulatu his ut, ei natum commodo eleifend eos, sed case semper principes eu. Impetus iracundia constituam pri eu, etiam omnes pro no.
+
+					Equidem pericula eloquentiam no usu, brute falli vis cu. Eum no nostrum gloriatur percipitur, ne scaevola consequat vis. Pri ex vero impetus signiferumque. Ea errem quando cum. Has viris aeterno nostrud id, at vis tale debitis. Est te illum utamur verterem, ius alienum signiferumque in, at saepe detraxit vix.
+				</div>
 			</section>
+			<!-- In progress -->
 			<section id="interestsPage">
 				Something interesting
 			</section>
+			<!-- This page holds the links to my linkedin profile, twitter page, and github portfolio -->
 			<section id="linksPage">
 				<div id="links">
+					<!-- Email -->
 					<span class="fa-stack fa-lg">
 						<a href="mailto:samuelaaronfelipe@gmail.com" target="_blank" title="samuelaaronfelipe@gmail.com">
 							<i class="fa fa-envelope-square fa-2x"></i>
 						</a>
 					</span>
+					<!-- Phone number -->
 					<span class="fa-stack fa-lg">
 						<a href="mailto:647-542-0043" target="_blank" title="647-542-0043">
 							<i class="fa fa-phone-square fa-2x"></i>
 						</a>
 					</span>
+					<!-- LinkedIn -->
 					<span class="fa-stack fa-lg">
 						<a href="https://ca.linkedin.com/in/samuelaaronfelipe" target="_blank" title="https://ca.linkedin.com/in/samuelaaronfelipe">
 							<i class="fa fa-linkedin-square fa-2x"></i>
 						</a>
 					</span>
+					<!-- Twitter -->
 					<span class="fa-stack fa-lg">
 						<a href="https://twitter.com/s_a_m_felipe" target="_blank" title="https://twitter.com/s_a_m_felipe">
 							<i class="fa fa-twitter-square fa-2x"></i>
 						</a>
 					</span>
+					<!-- GitHub -->
 					<span class="fa-stack fa-lg">
 						<a href="https://github.com/sam2817" target="_blank" title="https://github.com/sam2817">
 							<i class="fa fa-github-square fa-2x"></i>
@@ -85,9 +110,10 @@
 					</span>
 				</div>
 			</section>
+			<!-- This serves as the page for  -->
 			<section id="commentsPage">
 				<div id="form">
-					<form class="commentForm" method="post">
+					<form class="commentForm" action="mailto:samuelaaronfelipe@gmail.com" method="post" enctype="text/plain">
 						<table class="commentTable">
 							<tr>
 								<th colspan="2">
@@ -96,11 +122,11 @@
 							</tr>
 							<tr>
 								<td>Full name:</td>
-								<td><input type="text" name="fullName" /></td>
+								<td><input type="text" name="fullName" placeholder="Full Name" required /></td>
 							</tr>
 							<tr>	
 								<td>Email Address:</td>
-								<td><input type="email" name="email" /></td>
+								<td><input type="email" name="email" placeholder="Email" required /></td>
 							</tr>
 							<tr>
 								<td>Comments:</td>	

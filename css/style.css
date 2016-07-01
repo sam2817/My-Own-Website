@@ -11,8 +11,10 @@
 	cursor:pointer;
 }
 
+/* styles the home button at  */
 #homeButton:hover {
 	color:grey;
+	font-size:3.5em;
 }
 
 /*styles the svg's in the header*/
@@ -65,7 +67,7 @@ a {
 	transform:rotate(90deg) translate(6em) rotate(-90deg);
 }
 
-/*gives effects on the hover state of the navigation icons*/
+/*gives effects on the hover state of the navigation icons and links*/
 .fa-file-image-o:hover {
 	color:blue;
 	animation-name:bob;
@@ -95,6 +97,47 @@ a {
 	animation-timing-function:linear;
 }
 
+.fa-envelope-square:hover {
+	color:blue;
+	animation-name:bob;
+	animation-duration:1s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+}
+
+.fa-phone-square:hover {
+	color:blue;
+	animation-name:bob;
+	animation-duration:1s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+}
+
+.fa-linkedin-square:hover {
+	color:blue;
+	animation-name:bob;
+	animation-duration:1s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+}
+
+.fa-twitter-square:hover {
+	color:blue;
+	animation-name:bob;
+	animation-duration:1s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+}
+
+.fa-github-square:hover {
+	color:blue;
+	animation-name:bob;
+	animation-duration:1s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+}
+
+/* The animation sequence on the hover event for the nav icons and links */
 @keyframes bob {
 	0% {font-size:1em;}
 	50% {
@@ -148,6 +191,14 @@ figcaption {
 	background-color:#99c2ff;
 }
 
+#aboutMe {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:25vh;
+	margin-bottom:auto;
+	width:60%;
+}
+
 #interestsPage {
 	height: 100%;
 	width:100%;
@@ -166,7 +217,7 @@ figcaption {
 	margin-top:30vh;
 	margin-bottom:auto;
 	text-align:center;
-	font-size:40px;
+	font-size:35px;
 }
 
 #commentsPage {
@@ -182,3 +233,7 @@ figcaption {
 	margin-top:25vh;
 	margin-bottom:auto;
 }
+
+
+
+
