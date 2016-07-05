@@ -5,41 +5,32 @@
 <head>
 	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
 	<title>Sam's Website</title>
-	<!--external is preferrable, linking the style of your css file to this html file-->
+	<!-- External is preferrable, linking the style of your css file to this html file -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!--external stylesheet which is linked to a font stylesheet-->
+	<!-- External stylesheet which is linked to a font stylesheet -->
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-	
-	
-	<!--These links are for troubleshooting-->
-	<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>-->
-	<!--<script type="text/javascript" src="js/jQuery/v1.12.4/jquery-1.12.4.min.js"></script>-->
-
-
-
-	
 </head>
 
 <body>
-	<!--This serves as the browser screen-->
+	<!-- This serves as the browser screen -->
 	<section id="wrapper">
 		<!-- This serves as the single page slate -->
 		<section id="mask">
-			<!--the header holds the home button, when pressed it will place the webpage on it's default state-->
+			<!-- The header holds the home button, when pressed it will place the webpage on it's default state -->
 			<header id="headContainer">
-				<!--linked to a home font to serve as the home button-->
+				<!-- Linked to a home font to serve as the home button -->
 				<a id="zero" href="#homePage"><i id="homeButton" class="fa fa-home fa-3x"></i></a>
-				<!--these svg's serves as surfaces for the home button and the navigation icons-->
+				<!-- These svg's serves as surfaces for the home button and the navigation icons -->
 				<svg width="125" height="125">
 					<circle cx="0" cy="0" r="125" style="fill:orange; stroke-width:2; stroke:black" />
 					<circle cx="0" cy="0" r="75" fill="blue" />
 				</svg>
 			</header>
 			
-			<!--this serves as the parent for the navigation icons-->
+			<!-- This serves as the parent for the navigation icons -->
 			<nav id="navSurface">
 				<a id="degZero" href="#aboutMePage"><i class="fa fa-file-image-o"></i></a>
-				<a id="degThirty" href="#interestsPage"><i class="fa fa-bar-chart"></i></a>
+				<a id="degThirty" href="#interestsPage"><i class="fa fa-heart"></i></a>
 				<a id="degSixty" href="#linksPage"><i class="fa fa-link"></i></a>
 				<a id="degNinty" href="#commentsPage"><i class="fa fa-comments"></i></a>
 			</nav>
@@ -49,7 +40,7 @@
 					<!-- This is the content of my home page at the moment -->
 					<figure>
 						<img src="images/Samuel F.JPG" alt="Samuel Aaron Felipe" width="200" height="200">
-						<figcaption>Samuel Aaron Felipe</figcaption>
+						<figcaption><h2>Samuel Aaron Felipe</h2></figcaption>
 						<figcaption>Junior Web Developer || Tech Aficionado || NPower Canada</figcaption>
 					</figure>
 				</section>
@@ -57,54 +48,98 @@
 				
 				</footer>
 			</section>
-			<!-- In progress -->
+			<!-- This section contains a brief summary -->
 			<section id="aboutMePage">
-				<div id="aboutMe">
-					Something aboutMe Lorem ipsum dolor sit amet, in cum patrioque constituto, ad nam mucius pertinax. Nec et liber debet suscipiantur, et vel ludus libris facete. Ea iisque abhorreant consetetur quo, ad voluptua scribentur duo, vix ea modus fierent percipit. Vim modus saepe fabellas in. At sed nobis veritus.
-
-					Ei vim altera oblique menandri. Mei amet movet splendide ad. Cum feugiat iudicabit expetendis et, no ius rebum mediocrem. Epicurei eleifend sadipscing sit cu, eu duo similique definitionem, ex tantas pertinacia duo. At assum nostrum mel, ad purto augue persequeris vim. Habemus erroribus no eam, et audiam saperet est. In eam virtute utroque.
-
-					In eam aeque labitur, sed timeam urbanitas ut. Eum cu animal virtute electram. Et mei alia summo, quot viderer officiis ne qui, ius cu natum simul. Ad tollit option quo, quot vide saperet pri no, in constituam adversarium vel. Saepe nemore sadipscing eos ut, melius aeterno deserunt eu sed.
-
-					At esse wisi laudem sit. Te fabellas atomorum gloriatur mei, vis cu malis diceret abhorreant, exerci omnesque intellegam nec cu. Quas partiendo consulatu his ut, ei natum commodo eleifend eos, sed case semper principes eu. Impetus iracundia constituam pri eu, etiam omnes pro no.
-
-					Equidem pericula eloquentiam no usu, brute falli vis cu. Eum no nostrum gloriatur percipitur, ne scaevola consequat vis. Pri ex vero impetus signiferumque. Ea errem quando cum. Has viris aeterno nostrud id, at vis tale debitis. Est te illum utamur verterem, ius alienum signiferumque in, at saepe detraxit vix.
-				</div>
+				<section id="aboutMe">
+					<p><span class="fa-2x">ABOUT ME</span></p></br>
+					<p>
+						I am currently undergoing training that will enable myself to fit in the Information Technology (IT) industry specifically in Web and Mobile Application Development. Acquired the Microsoft Technology Associate (MTA) certification last June 24, 2016.
+					</p></br>
+					<p>
+						I hold a Bachelor's Degree in Petroleum Engineering from Palawan State University. I am currently an Engineer In Training (EIT) of Professional Engineers Ontario (PEO) and working towards a Professional Engineering (PEng) and Certified Technician (CTech) licences.	
+					</p>
+				</section>
 			</section>
-			<!-- In progress -->
+			<!-- This section contains my interests and hobbies -->
 			<section id="interestsPage">
-				Something interesting
+				<section>
+					<table class="table">
+						<tr>
+							<th colspan="3" class="fa-2x">INTERESTS</th>
+						</tr>
+						<tr>
+							<th>Favorite Recreation</th>
+							<th>Favorite Places</th>
+							<th>Favorite Subjects</th>
+						</tr>
+						<tr>
+							<td><img src="images/adventure_time__bmo_by_cray_monster-d7d9swe.png" width="50vw" height="50vh"></td>
+							<td><img src="images/suitcases-159590_960_720.png" width="50vw" height="50vh"></td>
+							<td><img src="images/microscope-1416890_960_720.png" width="50vw" height="50vh"></td>
+						</tr>
+						<tr>
+							<td>
+								<ul>
+									<li>Video Gaming</li>
+									<li>Basketball</li>
+									<li>Watching Movies</li>
+									<li>Airsoft</li>
+									<li>GoKarts</li>
+								</ul>
+							</td>
+							<td>
+								<ul>
+									<li>Puerto Princesa</li>
+									<li>Makati South Hills</li>
+									<li>Enchanted Kingdom</li>
+									<li>Canada Wonderland</li>
+									<li>Dos Palmas</li>
+								</ul>
+							</td>
+							<td>
+								<ul>
+									<li>Physics</li>
+									<li>Chemistry</li>
+									<li>Math</li>
+									<li>Biology</li>
+									<li>Technology</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</section>
 			</section>
-			<!-- This page holds the links to my linkedin profile, twitter page, and github portfolio -->
+			<!-- This page holds the links to my LinkedIn profile, Twitter page, and GitHub portfolio -->
 			<section id="linksPage">
 				<div id="links">
 					<!-- Email -->
+					<span id="linksTitle">LINKS</span></br>
 					<span class="fa-stack fa-lg">
-						<a href="mailto:samuelaaronfelipe@gmail.com" target="_blank" title="samuelaaronfelipe@gmail.com">
+						<a href="mailto:samuelaaronfelipe@gmail.com" target="_blank" title="samuelaaronfelipe@gmail.com" alt="This is my email address">
 							<i class="fa fa-envelope-square fa-2x"></i>
 						</a>
 					</span>
 					<!-- Phone number -->
 					<span class="fa-stack fa-lg">
-						<a href="mailto:647-542-0043" target="_blank" title="647-542-0043">
+						<a href="mailto:647-542-0043" target="_blank" title="647-542-0043" alt="This is my contact number">
 							<i class="fa fa-phone-square fa-2x"></i>
 						</a>
 					</span>
 					<!-- LinkedIn -->
 					<span class="fa-stack fa-lg">
-						<a href="https://ca.linkedin.com/in/samuelaaronfelipe" target="_blank" title="https://ca.linkedin.com/in/samuelaaronfelipe">
+						<a href="https://ca.linkedin.com/in/samuelaaronfelipe" target="_blank" title="https://ca.linkedin.com/in/samuelaaronfelipe" alt="This links to my LinkedIn profile">
 							<i class="fa fa-linkedin-square fa-2x"></i>
 						</a>
 					</span>
 					<!-- Twitter -->
 					<span class="fa-stack fa-lg">
-						<a href="https://twitter.com/s_a_m_felipe" target="_blank" title="https://twitter.com/s_a_m_felipe">
+						<a href="https://twitter.com/s_a_m_felipe" target="_blank" title="https://twitter.com/s_a_m_felipe" alt="This links to my twitter account">
 							<i class="fa fa-twitter-square fa-2x"></i>
 						</a>
 					</span>
 					<!-- GitHub -->
 					<span class="fa-stack fa-lg">
-						<a href="https://github.com/sam2817" target="_blank" title="https://github.com/sam2817">
+						<a href="https://github.com/sam2817" target="_blank" title="https://github.com/sam2817" alt="This links to my GitHub portfolio">
 							<i class="fa fa-github-square fa-2x"></i>
 						</a>
 					</span>
@@ -114,10 +149,10 @@
 			<section id="commentsPage">
 				<div id="form">
 					<form class="commentForm" action="mailto:samuelaaronfelipe@gmail.com" method="post" enctype="text/plain">
-						<table class="commentTable">
+						<table class="table">
 							<tr>
-								<th colspan="2">
-									Comments and suggestions:
+								<th colspan="2" class="fa-2x">
+									COMMENTS AND SUGGESTIONS:
 								</th>
 							</tr>
 							<tr>
@@ -130,7 +165,7 @@
 							</tr>
 							<tr>
 								<td>Comments:</td>	
-								<td><textarea rows="4" cols="30"></textarea></td>
+								<td><textarea rows="4" cols="23" placeholder="Kindly place your comments here"></textarea></td>
 							</tr>
 							<tr>
 								<td>
@@ -143,20 +178,11 @@
 			</section>
 		</section>
 	</section>
-	
+	<!--
 	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
-	<!--<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js'></script>
-	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>-->
-	<script type="text/javascript">
-		$(function(){
-			$("#mask a").click(function(e){
-				/*e.preventDefault();*/
-				$('html,body').scrollTo(this.hash,this.hash); 
-			});
-		});
-	</script>
-	<!--<script src="js/test.js"></script>-->
+	<script src="js/script.js"></script>
+	-->
 </body>
 
 </html>

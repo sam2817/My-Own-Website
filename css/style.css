@@ -14,13 +14,12 @@
 /* styles the home button at  */
 #homeButton:hover {
 	color:grey;
-	font-size:3.5em;
+	font-size:3em;
 }
 
 /*styles the svg's in the header*/
 svg{
 	position:fixed;
-	opacity:.5;
 }
 
 /*styles and positions the navigation icons*/
@@ -32,7 +31,8 @@ a {
 #navSurface a {
     display:block;
     position:;
-    width:32px; height:32px; 
+    width:32px;
+	height:32px; 
     margin:50px;
 }
 
@@ -75,7 +75,7 @@ a {
 	animation-iteration-count:infinite;
 	animation-timing-function:linear;
 }
-.fa-bar-chart:hover {
+.fa-heart:hover {
 	color:blue;
 	animation-name:bob;
 	animation-duration:1s;
@@ -147,6 +147,7 @@ a {
 	100% {font-size:1em;}
 }
 
+/* This is the section for styling the pages and the contents within */
 #wrapper {
 	height:100%;
 	width:100%;
@@ -161,6 +162,7 @@ a {
 	width:100%;
 }
 
+/* This styles the home page and its contents */
 #homePage {
 	height:100%;
 	width:100%;
@@ -182,8 +184,10 @@ img {
 
 figcaption {
 	text-align:center;
+	font-family:Calibri;
 }
 
+/* This styles the aboutMe page and its contents */
 #aboutMePage {
 	height: 100%;
 	width:100%;
@@ -194,11 +198,26 @@ figcaption {
 #aboutMe {
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:25vh;
+	margin-top:15vh;
 	margin-bottom:auto;
-	width:60%;
+	overflow:auto;
 }
 
+#aboutMe > p {
+	margin-left:auto;
+	margin-right:auto;
+	width:65%;
+	font-size:2.7vh;
+	font-family:Calibri;
+	text-indent:25px;
+}
+
+#about > p > span {
+	text-align:center;
+	font-weight:bold;
+}
+
+/* This styles the interests page and its contents */
 #interestsPage {
 	height: 100%;
 	width:100%;
@@ -206,11 +225,18 @@ figcaption {
 	background-color:#80b3ff;
 }
 
+/* This styles the links page and its contents */
 #linksPage {
 	height:100%;
 	width:100%;
 	overflow:hidden;
 	background-color:#66a3ff;
+}
+
+#linksTitle {
+	text-align:center;
+	font-family:Calibri;
+	font-weight:bold;
 }
 
 #links {
@@ -220,6 +246,7 @@ figcaption {
 	font-size:35px;
 }
 
+/* This styles the comments page and its contents */
 #commentsPage {
 	height:100%;
 	width:100%;
@@ -227,13 +254,11 @@ figcaption {
 	background-color:#4d94ff;
 }
 
-.commentTable {
+.table {
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:25vh;
 	margin-bottom:auto;
+	width:80%;
+	font-family:Calibri;
 }
-
-
-
-
