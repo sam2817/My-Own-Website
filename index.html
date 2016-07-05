@@ -1,14 +1,20 @@
-﻿<!doctype html>
+﻿<!-- @author Samuel Aaron Felipe -->
+<!-- @version 1.0.0 -->
+
+<!doctype html>
 
 <html>
 
 <head>
-	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sam's Website</title>
 	<!-- External is preferrable, linking the style of your css file to this html file -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- External stylesheet which is linked to a font stylesheet -->
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
 </head>
 
 <body>
@@ -44,9 +50,7 @@
 						<figcaption>Junior Web Developer || Tech Aficionado || NPower Canada</figcaption>
 					</figure>
 				</section>
-				<footer>
-				
-				</footer>
+
 			</section>
 			<!-- This section contains a brief summary -->
 			<section id="aboutMePage">
@@ -89,11 +93,11 @@
 							</td>
 							<td class="listItems">
 								<ul>
-									<li>Puerto Princesa</li>
-									<li>Makati South Hills</li>
-									<li>Enchanted Kingdom</li>
-									<li>Canada Wonderland</li>
-									<li>Dos Palmas</li>
+									<li><a href="http://puertoprincesa.ph/" target="_blank">Puerto Princesa</a></li>
+									<li><a href="http://wikimapia.org/1768804/Makati-South-Hills" target="_blank">Makati South Hills</a></li>
+									<li><a href="http://enchantedkingdom.ph/" target="_blank">Enchanted Kingdom</a></li>
+									<li><a href="https://www.canadaswonderland.com/"target="_blank">Canada Wonderland</a></li>
+									<li><a href="http://dospalmas.com.ph/">Dos Palmas</a></li>
 								</ul>
 							</td>
 							<td class="listItems">
@@ -147,8 +151,8 @@
 			</section>
 			<!-- This serves as the page for  -->
 			<section id="commentsPage">
-				<div id="form">
-					<form class="commentForm" action="mailto:samuelaaronfelipe@gmail.com" method="post" enctype="text/plain">
+
+				<form id="form" class="commentForm" action="mailto:samuelaaronfelipe@gmail.com" method="post" enctype="text/plain">
 						<table class="table">
 							<tr>
 								<th colspan="2" class="fa-2x">
@@ -174,15 +178,16 @@
 							</tr>
 						</table>
 					</form>
-				</div>
+
 			</section>
 		</section>
 	</section>
-	<!--
-	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-	<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+	
+	<footer>
+				
+	</footer>
+	<!--<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>-->
 	<script src="js/script.js"></script>
-	-->
 </body>
 
 </html>
