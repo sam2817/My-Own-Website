@@ -212,9 +212,11 @@ figcaption {
 	text-indent:25px;
 }
 
-#about > p > span {
-	text-align:center;
+#aboutMe > #aboutMeHeader {
 	font-weight:bold;
+	text-align:center;
+	padding-left:auto;
+	padding-right:auto;
 }
 
 /* This styles the interests page and its contents */
