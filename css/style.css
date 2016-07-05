@@ -225,6 +225,15 @@ figcaption {
 	background-color:#80b3ff;
 }
 
+#interestsPage > td, th {
+	width:40vw;
+}
+
+li {
+	text-align:center;
+	list-style-type:none;
+}
+
 /* This styles the links page and its contents */
 #linksPage {
 	height:100%;
@@ -259,6 +268,5 @@ figcaption {
 	margin-right:auto;
 	margin-top:25vh;
 	margin-bottom:auto;
-	width:80%;
 	font-family:Calibri;
 }
