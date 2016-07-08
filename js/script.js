@@ -1,5 +1,14 @@
+
+
 /* @author Samuel Aaron Felipe */
 /* @version 1.0.0 */
+
+$(document).ready(function(){
+  $("#navSurface a").click(function(e){
+	//e.preventDefault();
+    $('html,body').scrollTo(this.hash, this.hash); 
+  });
+});
 
 // Most of the comments here are for toubleshooting
 
@@ -13,7 +22,7 @@
 
 }*/
 /*
-$(document).ready(function() {
+
 
  $('#homePage i').click(function() {
 
@@ -54,9 +63,23 @@ function menuOnScroll(mySection, myMenu, myClass) {
 }
 */
 
-$(function(){
-  $("#navSurface a").click(function(e){
-    // e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
+/*$(document).ready(function(){
+$("#navSurface > a:nth-child(1)").click(function(){
+$("#container").animate({top:0%},1000);
 });
+
+$("#navSurface > a:nth-child(2)").click(function(){
+$("#container").animate({top:-100%},1000);
+});
+
+$("#navSurface > a:nth-child(3)").click(function(){
+$("#container").animate({top:-200%},1000);
+});
+
+$("#navSurface > a:nth-child(4)").click(function(){
+$("#container").animate({top:-300%},1000);
+});
+});*/
+
+
+//alert ("Hello!");
